@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 980px;
+    min-height: 800px;
+    background-color: rgb(40,23,28);
+}
+
+.header {
+    min-height: 80px;
+    padding: 0px;
+    background-color: white;
+}
+
+    .header h1 {
+        display: inline-block;
+        width: 530px;
+        margin: 20px 0px 0px 20px;
+        font-size: 32px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+
+    .header p {
+        display: inline-block;
+        margin: 25px 20px 20px 0px;
+        vertical-align: top;
+        font-size: 22px;
+        font-family: "Arial, Helvetica", sans-serif;
+        font-weight: bold;
+    }
+
+.main {
+    min-height: 300px;
+    padding: 0px;
+}
+
+.image {
+    display: inline-block;
+}
+
+    .image img {
+        width: 455px;
+        margin: 20px 15px 0px 20px;
+        border: 5px solid rgb(192,192,192);
+    }
+
+.about {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 455px;
+    height: 309px;
+    background-color: rgb(227,216,227);
+}
+
+    .about h3 {
+        background-color: rgb(135,133,147);
+        margin: 0;
+        color: white;
+        padding: 10px;
+        font-family: "Arial, Helvetica", sans-serif;
+    }
+
+    .about p {
+        margin: 0px;
+        padding: 10px;
+        font-family: "Arial Narrow, Helvetica", sans-serif;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+    .about a {
+        padding-left: 10px;
+        color: black;
+        font-family: "Arial Narrow, Helvetica", sans-serif;
+        font-size: 17px;
+        font-weight: lighter;
+    }
+
+.project {
+    display: inline-block;
+    width: 297px;
+    min-height: 350px;
+    vertical-align: top;
+    background-color: rgb(227,216,227);
+    margin: 20px 0px 0px 20px;
+    padding: 0px;
+}
+
+    .main project {
+        display: inline-block;
+    }
+
+    h3 {
+        background-color: rgb(135,133,147);
+        margin: 0;
+        color: white;
+        padding: 10px;
+        font-family: "Arial, Helvetica", sans-serif;
+    }
+
+    .project img {
+        margin: 0px;
+        padding: 0px;
+        width: 297px;
+    }
+
+    .project p {
+        width: 297;
+        margin: 0px;
+        padding: 10px;
+        font-family: "Arial Narrow, Helvetica", sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+    }
+
+.tech {
+    display: inline-block;
+    width: 297px;
+    vertical-align: top;
+    background-color: rgb(227,216,227);
+    margin: 0px 0px 0px 20px;
+    padding: 0px;
+}
+
+    .main tech {
+        display: inline-block;
+    }
+
+    h4 {
+        background-color: rgb(135,133,147);
+        margin: 0;
+        color: white;
+        padding: 10px;
+        font-family: "Arial, Helvetica", sans-serif;
+    }
+
+    .tech img {
+        width: 35px;
+        margin: 10px 10px 0px 10px;
+    }
+
+    .tech button {
+        display: block;
+        margin: 10px auto 15px auto;
+        padding: 5px;
+        border-radius: 8px;
+        background-color: green;
+        color: white;
+        border: 1px solid black;
+        font-family: "Arial Black, Helvetica", sans-serif;
+        font-weight: bolder;
+    }
+
+.bottom {
+    min-height: 30px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+    .bottom p {
+        margin: 0px;
+        padding: 10px;
+        font-family: "Arial Narrow, Helvetica", sans-serif;
+        font-weight: lighter;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .bottom ul {
+        display: inline-block;
+        margin: 0px 0px 10px 306px;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+
+    .bottom img {
+        display: inline block;
+        width: 15px;
+        padding: 0px;
+    }
+    
+    .bottom a {
+        display: inline-block;
+        padding: 0px;
+        color: black;
+        font-family: "Arial Narrow, Helvetica", sans-serif;
+        font-size: 17px;
+        font-style: italic;
+        font-weight: lighter;
+    }
