@@ -27,19 +27,32 @@ maxMinAvg([10,20,30,40,50]);
 
 // Challenge 3.
 function returnNoNeg(arr) {
-  var arr = [-5,12,-8,20];
-  for(var i=0;i<x.length;i++) {
-    if(i<0) {
-      return 'Dojo';
-    } else {
-      return i;
-    }
+    arr = arr.map(function(i){
+      if (i<0){
+        return 'Dojo';
+      } else {
+        return i;
+      }
+    });
+    return arr;
   }
-y = returnNoNeg(-5,12,-8,20);
+y = returnNoNeg([-5,12,-8,20]);
 console.log(y);
 
 // Challenge 4.
 function returnRange(arr) {
-  var arr = [10,20,30,40,50,60,70,80,90];
-  for(i=0;i<)
+  var arr = [];
+  for(i=0;i<arr.length,i++;) {
+    if(arr[i]<30) {
+      arr.length--;
+    } else {
+    if(arr[i]>60) {
+      arr.length--;
+      } else {
+        arr.push(i);
+      }
+    }
+  }
+  console.log(arr);
 }
+returnRange([10,20,30,40,50,60,70,80,90]);
