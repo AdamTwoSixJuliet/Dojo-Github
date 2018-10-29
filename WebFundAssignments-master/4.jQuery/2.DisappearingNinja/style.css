@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container {
+    width: 980px;
+    min-height: 800px;
+    background-color: white;
+}
+
+.header {
+    display: inline-block;
+    min-height: 80px;
+    padding: 20px;
+}
+
+    .header img {
+        display: inline-block;
+        width: 200px;
+        margin: 0px 0px 0px 20px;
+    }
